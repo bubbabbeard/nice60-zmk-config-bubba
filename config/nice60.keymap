@@ -42,7 +42,7 @@
 // |   BT 4  |      |      |             TOG RGB                | PRT SCR |       |       |  DEL  |
 // ------------------------------------------------------------------------------------------------
 			bindings = <
-	&bt GRAVE   &kp F1    &kp F2    &kp F3  &kp F4           &kp F5          &kp F6          &kp F7          &kp F8   &kp F9   &kp F10  &kp F11 &kp F12  &kp DELETE
+	&kp GRAVE   &kp F1    &kp F2    &kp F3  &kp F4           &kp F5          &kp F6          &kp F7          &kp F8   &kp F9   &kp F10  &kp F11 &kp F12  &kp DELETE
 	&bt BT_SEL 0  &trans    &kp UP    &trans  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI &rgb_ug RGB_BRI &kp PAGE_UP RGB_SPI  &kp UP   &kp PAGE_DOWN   &trans   &trans  &trans          &trans 
 	&bt BT_SEL 1   &kp LEFT  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP kp C_MUTE &rgb_ug RGB_SAD &kp HOME &kp LEFT &kp DOWN   &kp RIGHT   &trans   &trans        &rgb_ug RGB_EFF
 	&bt BT_SEL 2    &trans    &trans    &trans   &trans          &trans          &kp END          &trans          &trans   &trans   &trans                          &trans
