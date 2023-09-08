@@ -19,7 +19,7 @@
 			label = "TILDE_ESCAPE";
 			#binding-cells = <0>;
 			bindings = <&kp ESC>, <&kp TILDE>;
-			mods = <(LSHIFT|RSHIFT)>;
+			mods = <(MOD_LSFT|MOD_RSFT)>;
 		};
 	};
 	keymap {
